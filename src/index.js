@@ -9,14 +9,18 @@ import Clock from "./chapter_04/Clock";
 import CommentList from "./chapter_05/CommentList";
 import NotificationList from "./chapter_06/NotificationList";
 import Accommodate from "./chapter_07/Accommodate";
+import ConfirmButton from "./chapter_08/ConfirmButton";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// chapter 03
 // root.render(
 // 	<React.StrictMode>
 // 		<Library />
 // 	</React.StrictMode>
 // );
 
+// chapter 04
 // setInterval(() => {
 // 	root.render(
 // 		<React.StrictMode>
@@ -26,21 +30,31 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // 	);
 // }, 1000);
 
+// chapter 05
 // root.render(
 // 	<React.StrictMode>
 // 		<CommentList />
 // 	</React.StrictMode>
 // );
 
+// chapter 06
 // root.render(
 // 	<React.StrictMode>
 // 		<NotificationList />
 // 	</React.StrictMode>
 // );
 
+// chapter 07
+// root.render(
+// 	<React.StrictMode>
+// 		<Accommodate />
+// 	</React.StrictMode>
+// );
+
+// chapter 08
 root.render(
 	<React.StrictMode>
-		<Accommodate />
+		<ConfirmButton />
 	</React.StrictMode>
 );
 
